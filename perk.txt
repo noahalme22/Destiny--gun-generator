@@ -1,0 +1,157 @@
+Accelerated Coils	Reduces charge time.	Fusion Rifles	
+Accurized Ballistics
+Accurized Ballistics	More range and Impact. Increased recoil.	Machine Guns, Shotguns	
+Aggressive Ballistics 
+Aggressive Ballistics	More predictable recoil. Enhanced Impact. Shorter range and more recoil.	Shotguns, Machine Guns	Offers highest Impact increase of the attribute options.
+Hard Launch
+Aggressive Launch	More predictable recoil. Enhanced Blast Radius. Reduced Velocity and recoil.	Rocket Launchers	Offers highest Blast Radius increase of the attribute options.
+Armor Piercing Rounds icon
+Armor Piercing Rounds	These iridium-core rounds overpenetrate targets. Their mass slows down weapon handling.	Auto Rifles, Machine Guns, Pulse Rifles, Scout Rifles, Sniper Rifles	
+Army of One
+Army of One	Unassisted kills with this weapon reduce grenade and melee cooldown.	Auto Rifles, Hand Cannons, Rocket Launchers, Scout Rifles, Shotguns	
+Battle Runner
+Battle Runner	Kills with this weapon grant a brief boost to the sprint's top speed.	Auto Rifles, Scout Rifles, Shotguns, Sidearms	Also boosts regular movement speed. Lasts 5 seconds.
+Smallbore
+Braced Frame	Increased Stability. Reduced Magazine Size.	Auto Rifles, Pulse Rifles, Scout Rifles, Fusion Rifles, Sniper Rifles, Shotguns	
+Cascade
+Cascade	Melee kills increase the reload speed of this weapon for a short time.	Auto Rifles, Fusion Rifles, Shotguns	
+Smallbore
+Casket Mag	Increased Magazine Size. Reduced Stability.	Scout Rifles, Sniper Rifles	
+Crowd Control
+Crowd Control	Kills with this weapon grant bonus damage for a short time.	Auto Rifles, Hand Cannons, Machine Guns, Scout Rifles, Shotguns	
+CQB Ballistics
+CQB Ballistics	Greatly reduced recoil. Significant penalty to range.	Machine Guns, Shotguns	
+Custom Optics
+Custom Optics	Precision glass for better zoom.
+For Patience and Time: Precision glass for lower zoom, wider view.	Pulse Rifles, Scout Rifles, Sniper Rifles	
+Extended Mag
+Extended Mag	A larger magazine.	Auto Rifles,Scout Rifles, Shotguns, Fusion Rifles	
+Feeding Frenzy
+Feeding Frenzy	Kills with this weapon increase reload speed for a short time.	Machine Guns, Shotguns	
+Fitted Stock
+Fitted Stock	Increases weapon stability.	Auto Rifles, Machine Guns, Rocket Launchers, Shotguns, Sniper Rifles	
+Field Choke
+Field Choke	More range and Impact. Increased recoil.	Machine Guns, Shotguns	Offers highest Range increase of the attribute options.
+Field Scout
+Field Scout	Maximum Ammo capacity.	Auto Rifles, Hand Cannons, Machine Guns, Rocket Launchers, Scout Rifles, Shotguns, Sniper Rifles	Auto rifles have ammo capacity increased according to caliber.
+Final Round
+Final Round	The last round in a magazine deals bonus damage.	Hand Cannons, Scout Rifles, Shotguns, Sniper Rifles	In the Crucible, Final Rounds of high-caliber sniper rifles like Efrideet's Spear do not require a headshot to instantly kill.
+Focused Fire
+Focused Fire	When zoomed, this weapon fires slower, but causes additional damage.	Auto Rifles, Machine Guns	
+Flared Magwell
+Flared Magwell	Reload this weapon even faster.	Machine Guns, Rocket Launchers, Scout Rifles, Shotguns, Sniper Rifles	Synonymous with Speed Reload.
+Firefly
+Firefly	Precision kills with this weapon cause the target to explode.	Scout Rifles, Sniper Rifles, Hand Cannons (Fatebringer and Ace of Spades), Pulse Rifles (Smite of Merain)	Explosions inherit any elemental damage the weapon typically inflicts. It can therefore be used with corresponding burn modifiers.
+Full Auto
+Full Auto	This weapon can be fired in full auto mode.	Pulse Rifles, Scout Rifles, Shotguns	Shotguns with this upgrade also have increased rate-of-fire.
+Hard Launch
+Hard Launch	More Velocity and Blast Radius. More recoil.	Rocket Launchers	
+Hand Loaded
+Hand Loaded	This weapon is effective at extended range.	Auto Rifles, Hand Cannons, Machine Guns, Scout Rifles, Shotguns	Synonymous with Hammer Forged and Send It.
+Hammer Forged
+Hammer Forged	Improved range and accuracy.	Auto Rifles, Machine Guns, Scout Rifles, Shotguns, Sniper Rifles	Synonymous with Hand Loaded and Send It.
+Smallbore
+Hand-Laid Stock	Increased Stability. Reduced Range.	Auto Rifles, Machine Guns, Scout Rifles, Shotguns, Sniper Rifles	
+Headseeker perk icon
+Headseeker	Gain an 8% precision damage boost following a body shot	Pulse Rifles	
+Hidden Hand icon
+Hidden Hand	This weapon gains better target acquisition.	Auto Rifles, Pulse Rifles, Scout Rifles, Sniper Rifles	Increases aim assist.[1]
+High Caliber Rounds perk icon
+High Caliber Rounds	Oversize rounds built to stagger enemies and leave them reeling. Their mass makes a weapon harder to handle.		
+Hip Fire
+Hip Fire	This weapon has bonus accuracy while firing from the hip.	Auto Rifles, Fusion Rifles, Machine Guns	
+Hot Swap
+Hot Swap	Readying this weapon grants a brief period of bonus accuracy.	Auto Rifles, Hand Cannons, Scout Rifles	
+Smallbore
+Injection Mold	Increased Stability, Faster Handling. Reduced Range.	Auto Rifles, Machine Guns, Shotguns, Sniper Rifles	
+Icarus
+Icarus	Improved accuracy while airborne.	Auto Rifles, Hand Cannons, Scout Rifles	
+Lightweight
+Lightweight	When held, this weapon grants +2 character Agility.	Auto Rifles, Hand Cannons, Pulse Rifles, Scout Rifles, Shotguns, Sniper Rifles	
+Linear Compensator
+Linear Compensator	More predictable recoil. Slight boosts to range and impact. More recoil.
+For Rocket Launchers: More predictable recoil. Slight boosts to Velocity and Blast Radius. More recoil.	Machine Guns, Rocket Launchers, Shotguns	
+Longview SLR10
+Longview SLR10	Low-zoom scope. Improved range and handling.	Sniper Rifles	
+Luck In The Chamber
+Luck in the Chamber	One random bullet in the magazine causes considerable bonus damage.	Hand Cannons, Scout Rifles, Shotguns, Sniper Rifles	
+Mulligan
+Mulligan	Missing a shot has a chance to return ammo directly to the magazine.	Hand Cannons, Scout Rifles, Sniper Rifles	
+Outlaw
+Outlaw	Precision kills with this weapon dramatically increase reload speed.	Auto Rifles, Hand Cannons, Scout Rifles, Sniper Rifles	
+Quickdraw
+Quickdraw	This weapon can be drawn unbelievably fast.	Auto Rifles, Hand Cannons, Machine Guns, Pulse Rifles, Rocket Launchers, Scout Rifles, Shotguns, Sniper Rifles	
+Quickdraw IS
+Quickdraw IS	Agile sight. Lightning-fast handling.	Auto Rifles, Fusion Rifles, Hand Cannons, Pulse Rifles, Scout Rifles	
+Perfect Balence
+Perfect Balence	This weapon has extremely low recoil.	Auto Rifles, Hand Cannons, Machine Guns, Pulse Rifles, Rocket Launchers, Scout Rifles, Shotguns, Sniper Rifles	Synonymous with Fitted Stock.
+Persistence
+Persistance	This weapon grows more accurate the longer it is fired.	Auto Rifles, Machine Guns	
+Smallbore
+Oiled Frame	Faster Reload. Reduced Range.		
+Ranged Lens RLS3
+Ranged Lens RLS3	Mid-range scope. Good effective range and recoil control. Heavy and slow.	Auto Rifles, Pulse Rifles, Scout Rifles	
+Ranged Lens RLR5
+Ranged Lens RLS5	Precision scope. Superb effective range. Heavy, with poor recoil control.	Pulse Rifles, Scout Rifles	
+Rangefinder
+Rangefinder	Aiming this weapon increases its effective range.	Auto Rifles, Machine Guns, Pulse Rifles, Scout Rifles, Shotguns	
+Red Dot-OAS
+Red Dot-OAS	Snapshot sight. Enhanced target acquisition.	Auto Rifles, Fusion Rifles, Pulse Rifles, Scout Rifles	
+Red Dot-OAS
+Red Dot-ORES	Flexible sight. Enhances handling, range, and recoil control.	Auto Rifles, Fusion Rifles, Pulse Rifles, Scout Rifles	
+Red Dot-ORS
+Red Dot-ORS	Accurized sight. For precise fire.	Auto Rifles, Fusion Rifles, Pulse Rifles, Scout Rifles	
+Red Dot-OAS
+Red Dot-ORS1	Precision sight. Highest zoom in class. Enhanced range.	Auto Rifles, Fusion Rifles, Pulse Rifles	
+Replenish
+Replenish	This weapon's magazine will be refilled whenever a Super is cast.	Auto Rifles,Shotguns, Sniper Rifles	
+Return to Sender
+Return to Sender	Kills with this weapon have a chance to grant bonus ammo to the magazine.	Hand Cannons, Scout Rifles, Shotguns	
+Rodeo
+Rodeo	Reduces the severity of this weapon's recoil.	Machine Guns, Scout Rifles, Sniper Rifles	Synonymous with Counterbalance.
+Send It
+Send It	Increases Range and Accuracy.	Hand Cannons, Scout Rifles, Shotguns	Synonymous with Hammer Forged and Hand Loaded.
+Smooth Ballistics
+Smooth Ballistics	Less recoil. Penalty to range.	Machine Guns, Shotguns	
+Single Point Sling
+Single Point Sling	Switch weapons faster. Move quicker while aiming.	Auto Rifles, Hand Cannons, Machine Guns, Rocket Launchers, Scout Rifles, Shotguns	
+Smart Drift Control
+Smart Drift Control	Predictable and controllable recoil. Penalty to range.	Machine Guns, Rocket Launchers, Shotguns	Offers highest Stability of the attribute options.
+Smallbore
+Smallbore	Increased Range and Stability. Slower Reload, Reduced Magazine Size.	Auto Rifles, Hand Cannons, Machine Guns, Scout Rifles, Shotguns	
+Soft Ballistics
+Soft Ballistics	Less recoil. Penalty to Impact.	Machine Guns, Shotguns	
+Speed Reload
+Speed Reload	Reload this weapon quickly.		Synonymous with Flared Magwell.
+Spray and Play perk icon
+Spray and play	
+increases the reload speed of this weapon when its mag is empty
+
+(50% percent faster reload)
+
+Auto Rifles, Hand Cannons, Pulse Rifles, Scout rifles, Fusion Rifles, Shotguns, Sniper Rifles, Machine guns	
+Steady Hand IS
+Steady Hand IS	Stable sight. Optimized for excellent recoil control.	Auto Rifles, Hand Cannons, Pulse Rifles, Scout Rifles	
+Steady Hand IS
+Sureshot IS	Snapshot sight. Excellent handling. Superb target acquisition.	Auto Rifles, Hand Cannons, Fusion Rifles, Pulse Rifles, Scout Rifles	
+Surplus
+Surplus	Expect to find more ammo for this weapon.	Fusion Rifles, Machine Guns, Rocket Launchers, Sniper Rifles	
+Snapshot
+Snapshot	Aiming this weapon is incredibly fast.	Auto Rifles, Fusion Rifles, Hand Cannons, Machine Guns, Rocket Launchers, Scout Rifles, Shotguns, Sniper Rifles	
+Longview SLR10
+Sightsys SLS20	Very long distance scope. Superb target acquisition and recoil control.	Sniper Rifles	
+Longview SLR10
+Tacsys SLS15	Mid-zoom scope. Useful for unpredictable situations.	Sniper Rifles	
+Take a Knee
+Take a Knee	Gain bonus accuracy while crouched.	Sniper Rifles	
+Third Eye
+Third Eye	Radar stays active while aiming down this weapon's sights.	Auto Rifles, Hand Cannons, Rocket Launchers, Scout Rifles, Sniper Rifles	
+Steady Hand IS
+TrueSight IS	Flexible sight. Light, with good recoil control. Strong target acquisition.	Auto Rifles, Fusion Rifles, Hand Cannons, Pulse Rifles, Scout Rifles	
+Tripod
+Tripod	This launcher's tube can hold three shells.	Rocket Launchers	
+Upgrade Damage
+Upgrade Damage	Increases Attack Power, allowing this weapon to cause more damage.		
+Vacuum
+Vacuum	Increases the pick-up radius of ammo drops for this weapon.	Fusion Rifles, Rocket Launchers
+
