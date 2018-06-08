@@ -4,6 +4,7 @@ import random,primary
 class AutoRifle(primary.primary):
 
 
+<<<<<<< HEAD
         def __init__(self,autoRifleList = :""):
         super().__init__():
 
@@ -18,6 +19,20 @@ class AutoRifle(primary.primary):
 
                 
                 
+=======
+        def __init__(self,):
+
+        super().__init__():
+
+
+
+
+
+
+
+
+
+>>>>>>> 339797f6d2317df866b3ea7adcc96bf70682b0d5
 
 	if autoRifle == "":
                 autoRifle = random.choice(["Uriels Gift","doctrine of passing","Monte Carlo","origin Story","Zhalo Supercell","Kibou AR3"])
