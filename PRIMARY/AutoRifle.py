@@ -3,12 +3,21 @@ import random,primary
 
 class AutoRifle(primary.primary):
 
-<<<<<<< HEAD
-        def __init__(self):
-=======
+
+        def __init__(self,autoRifleList = :""):
         super().__init__():
->>>>>>> 6b0c226936f41ec64d6a5241e3723fae50fb7a64
+
+        autoRilfeList = []
+        
+        if autoRilfeList == []:
+                for i in range (0,3):
+                        autoRifleRan = random.choice(['Armor Piercing Rounds','Army of One','Battle Runner','Braced Frame','Cascade','Crowd Control','Extended Mag','Fitted Stock','
+'Field Scout','Focused Fire','Hand Loaded','Hammer Forged','Hand-Laid Stock','Hidden Hand','Hip Fire','Hot Swap','Injection Mold','Icarus',
+'Lightweight','Outlaw','Quickdraw','Perfect Balence','Persistance','Rangefinder','Replenish','Single Point Sling','Smallbore',
+'Spray and play',''
+
+                
+                
 
 	if autoRifle == "":
-				autoRan = random.randint(1,6)
-				autoRifle = random.choice(["Uriels Gift","doctrine of passing","Monte Carlo","origin Story","Zhalo Supercell","Kibou AR3"])
+                autoRifle = random.choice(["Uriels Gift","doctrine of passing","Monte Carlo","origin Story","Zhalo Supercell","Kibou AR3"])
