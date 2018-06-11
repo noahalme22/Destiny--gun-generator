@@ -4,8 +4,11 @@ import random,primary
 class AutoRifle(primary.primary):
 
 
-        def __init__(self,autoRifleList = :""):
+        def __init__(self,autoRifle == "",autoRifleList == "",autoRifleAttributes == ""):
         super().__init__():
+        self.autoRifle = autoRifle
+        self.autoRifleList = autoRilfeList
+        self.autoRifleAttributes = autoRifleAttributes
 
         autoRilfeList = []
         
@@ -19,3 +22,6 @@ class AutoRifle(primary.primary):
 
 	if autoRifle == "":
                 autoRifle = random.choice(["Uriels Gift","doctrine of passing","Monte Carlo","origin Story","Zhalo Supercell","Kibou AR3"])
+
+        def __str__(self):
+                return super().__str__()+"\nautoRifle: "+str(self.autoRifle)+"\nautoRifleAttributes : "+str(self.autoRifleAttributes)+"\nautoRifleList: "+str(self.autoRifleList)+"\n"
