@@ -1,9 +1,13 @@
 import random, secondary
 
 class sniper(secondary.secondary)
-        def __init__(self,sniperList = ""):
+        def __init__(self,sniperList = "",sniperAttributes,sniper):
         super().__init__():
 
+
+        self.sniper = sniper
+        self.attributes = sniperAttributes
+        self.list = sniperList 
 
 
         sniperList = []
@@ -24,3 +28,5 @@ class sniper(secondary.secondary)
               sniper  = random.choice(["Ice Breaker","Longbow Synthesis","LDR 5001","D.A.R.C.I","Aachen-LR2","Borealis"])
 
 
+        def __str__(self):
+                return super().__str__()+"\nsniper: "+str(self.sniper)+"\nattributes: "+str(self.sniperAttributes)+"\nlist: "+str(self.fsniperList)+"\n"

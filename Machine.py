@@ -1,8 +1,13 @@
 import random, heavy
 
 class machineGun(heavy.heavy):
-        def __init__(self,machineGunList = ""):
+        def __init__(self,machineGunList = "",machineGunAttributes = "" ,machine = ""):
         super().__init__():
+
+        self.machine = machine
+        self.attributes = machineGunAttributes
+        self.list = machineGunList
+
 
         machineGunList = []
         machineGunAttributes = []
@@ -22,3 +27,7 @@ class machineGun(heavy.heavy):
 
 	if machine == "":
 		machinee = random.choice(["ThunderLord","The Culling","Zombie Apocalypse WF47"])
+
+
+        def __str__(self):
+                return super().__str__()+"\nmachine: "+str(self.machine)+"\nattributes: "+str(self.machineGunAttributes)+"\nlist: "+str(self.machineGunList)+"\n"

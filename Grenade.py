@@ -1,8 +1,16 @@
 import heavy,random
 
 class grandeLauncher(heavy.heavy):
-        def __init__(self,grenadeLauncherList = ""):
+        def __init__(self,grenadeLauncherList = "",grenadeLaucherAttributes = "", grenade = ""):
         super().__init__():
+
+
+
+        self.grenade = grenade
+        self.attributes = grenadeLaucherAttributes
+        self.list = grenadeLauncherList
+
+
 
         grenadeLauncherList = []
         grenadeLaucherAttributes = []
@@ -23,3 +31,5 @@ class grandeLauncher(heavy.heavy):
 
 
           
+        def __str__(self):
+                return super().__str__()+"\ngrenade: "+str(self.grenade)+"\nattributes: "+str(self.grenadeLaucherAttributes)+"\nlist: "+str(self.grenadeLauncherList)+"\n"

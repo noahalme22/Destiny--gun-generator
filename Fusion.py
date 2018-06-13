@@ -1,8 +1,14 @@
 import random, secondary
 
 class fusion(secondary.secondary)
-        def __init__(self, fusionRifleList = ""):
+        def __init__(self, fusionRifleList = "",fusionRifleAttributes = "",fusion = ""):
         super().__init__():
+
+        self.fusion = fusion
+        self.attributes = fusionRifleAttributes
+        self.list = fusionRifleList
+
+
 
         fusionRifleList = []
         fusionRifleAttributes = []
@@ -17,13 +23,12 @@ class fusion(secondary.secondary)
         if grenadeLaucherList = []
                 for i in range (0,3):
               
-                        grenadeLaucherList = random.randint('Accelerated Coils','Braced Frame','Cascade','Extended Mag','Hip Fire','Quickdraw IS'
+                        fusionRifleList = random.randint('Accelerated Coils','Braced Frame','Cascade','Extended Mag','Hip Fire','Quickdraw IS'
                                                             ,'Red Dot-OAS','Red Dot-ORES','Red Dot-ORS','Spray and play','Sureshot IS','Snapshot','TrueSight IS','Vacuum')
 
-
-
-
-
-         if fusion == "":
+        if fusion == "":
             fusion  = random.choice(["Telesto","Merciless","Plan C","Saladins Vigil","Tarantula","Main Ingredient"])
 
+
+        def __str__(self):
+                return super().__str__()+"\nfusion: "+str(self.fusion)+"\nattributes: "+str(self.fusionRifleAttributes)+"\nlist: "+str(self.fusionRifleList)+"\n"
