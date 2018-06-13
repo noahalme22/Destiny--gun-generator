@@ -2,7 +2,7 @@ import random,primary
 
 
 class HandCannon(primary.primary):
-        def __init__(self,hcList = "",hcAttributes == "",handCannon == ""):
+        def __init__(self,hcList = "",hcAttributes = "",handCannon = ""):
         super().__init__():
         self.handCannon = handCannon
         self.hcAttributes = hcAttributes
