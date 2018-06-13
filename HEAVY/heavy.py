@@ -7,27 +7,18 @@ class heavy(prototype.prototype):
 	'''primary weapon generator'''
 
 	def __init__(self,gunType1 = "",rocket = "", grenade = "", sword = "", machine = ""):
-	
+	super().__init__()
 
-		if gunType1 == "heavy":
-				typeRan1 = random.randint(1,4)
+        self.rocket = rocket
+	self.grenade = grenade
+	self.sword = sword
+	self.machine = machine
+
+
+        if gunType1 == "heavy":
+		typeRan1 = random.choice('','','','','')
 			
-				if typeRan1 == 1:
-					gunType1 = rocket
+		
 					
-				elif typeRan1 == 2:
-					gunType1 = grenade
-					
-				elif typeRan1 == 3:
-					gunType1 = sword
 
-				elif typeRan1 == 4:
-					gunType1 = machine
-					
-	
-		self.gunType1 = gunType1		
-		self.rocket = rocket
-		self.grenade = grenade
-		self.sword = sword
-		self.machine = machine
 			
