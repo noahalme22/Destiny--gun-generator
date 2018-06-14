@@ -1,5 +1,7 @@
 
-import HandCannon as hc
+import PulseRifle as pr,HandCannon as hc
 
-newWeapon = hc.HandCannon ()
+newWeapon = pr.PulseRifle ()
+newWeapon1 = hc.handConnon ()
 print (newWeapon.gun)
+print (newWeapon1.gun)
