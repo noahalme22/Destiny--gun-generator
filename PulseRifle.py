@@ -1,6 +1,6 @@
 import random,primary
 
-class PulseRifle(primary.primary):
+class PulseRifle(primary.Primary):
         def __init__(self,pulseRifleList = "",pulseRifleAttributes = "",pulseRifle = ""):
                 super().__init__()
                 self.pulseRifle = pulseRifle

@@ -4,7 +4,7 @@ import random,primary
 class ScoutRifle(primary.Primary):
 
 
-        def __init__(self,scoutRifle = "",scoutList = "",scoutRifleAttributes = ""):
+        def __init__(self,scoutRifle = "",scoutRifleList = "",scoutRifleAttributes = ""):
                 super().__init__()
                 self.scoutRifle = scoutRifle
                 self.scoutRifleList = scoutRifleList
