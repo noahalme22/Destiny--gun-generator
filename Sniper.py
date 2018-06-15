@@ -6,8 +6,8 @@ class Sniper(secondary.Secondary):
 
 
                 self.sniper = sniper
-                self.attributes = sniperAttributes
-                self.list = sniperList 
+                self.sniperAttributes = sniperAttributes
+                self.sniperList = sniperList 
 
                 sniperList = []
                 if sniperAttributes == "":
@@ -18,7 +18,7 @@ class Sniper(secondary.Secondary):
 
                 if sniperList == "":
                     for i in range (0,3):
-                        sniperList = random.randint(['Third Eye','Take a Knee','Tacsys SLS15','Sightsys SLS20','Snapshot','Surplus','Spray and play','Rodeo','Replenish','Perfect Balence','Quickdraw','Outlaw','Mulligan','Lightweight','Injection Mold','Hidden Hand','Hand-Laid Stock','Hammer Forged','Flared Magwell','Final Round','Fitted Stock','Casket Mag','Braced Frame','Armor Piercing Rounds'])
+                        sniperList = random.choice(['Third Eye','Take a Knee','Tacsys SLS15','Sightsys SLS20','Snapshot','Surplus','Spray and play','Rodeo','Replenish','Perfect Balence','Quickdraw','Outlaw','Mulligan','Lightweight','Injection Mold','Hidden Hand','Hand-Laid Stock','Hammer Forged','Flared Magwell','Final Round','Fitted Stock','Casket Mag','Braced Frame','Armor Piercing Rounds'])
 
 
 
@@ -27,4 +27,4 @@ class Sniper(secondary.Secondary):
 
 
         def __str__(self):
-                return super().__str__()+"\nsniper: "+str(self.sniper)+"\nattributes: "+str(self.sniperAttributes)+"\nlist: "+str(self.fsniperList)+"\n"
+                return super().__str__()+"\nsniper: "+str(self.sniper)+"\nattributes: "+str(self.sniperAttributes)+"\nlist: "+str(self.sniperList)+"\n"
