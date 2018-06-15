@@ -1,5 +1,5 @@
 
-import PulseRifle as pr,HandCannon as hc, AutoRifle as ar, ScoutRifle as scr, SMG as smg, Sword as sw, Grenade as gr, Rocket as ro, Machine as ma
+import PulseRifle as pr, HandCannon as hc, AutoRifle as ar, ScoutRifle as scr, SMG as smg, Sword as sw, Grenade as gr, Rocket as ro, Machine as ma
 
 newWeapon = pr.PulseRifle ()
 newWeapon1 = hc.HandCannon ()

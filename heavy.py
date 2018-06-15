@@ -10,8 +10,8 @@ class Heavy(prototype.Prototype):
                 super().__init__()
                 self.gun = gunType
 
-                if gunType == "heavy":
-                        self.gun = random.choice('sword','rocket launcher','grenade launcher','machine gun')
+                if gunType == "":
+                        self.gun = random.choice(['sword','rocket launcher','grenade launcher','machine gun'])
 			
 		
 					

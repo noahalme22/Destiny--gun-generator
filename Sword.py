@@ -1,12 +1,11 @@
 import random,heavy
 
-class swords(heavy.Heavy):
-        def __init__(self,swordList = "", swordAttributes = "", sword = ""):
+class Sword(heavy.Heavy):
+        def __init__(self,swordList = "", sword = ""):
                 super().__init__()
 
 
                 self.sword = sword
-                self.swordAttributes = swordAttributes
                 self.swordList = swordList
 
 
@@ -15,6 +14,7 @@ class swords(heavy.Heavy):
                 if swordList == "":
                         swordList = random.choice(['precision frame','LightWeight','Aggressive Frame','Adept Frame','High-Impact Frame','Rapid-Fire Frame'])
 
+                
                 if sword == "":
                         sword = random.choice(["Raze-Lighter","Dark-Drinker","The Young Wolfs Howl","Worldline Zero"])
 
