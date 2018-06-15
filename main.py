@@ -13,7 +13,12 @@ print (newWeapon3.gun)
 =======
 import Sniper as sr
 
+<<<<<<< HEAD
 newWeapon = sr.Sniper ()
 print (newWeapon.gun)
 >>>>>>> ddfd13180411c7227c7d7c3eaab6364d8d4c6c3a
+=======
+newWeapon7 = sr.Sniper ()
+print (newWeapon7.gun)
+>>>>>>> 71a00b217e8a1bce4d19f6a243d5df01a8d4cea3
 
