@@ -1,5 +1,5 @@
 import random
-class prototype(object):
+class Prototype(object):
 
 	def __init__(self, gunType =""):
 		
