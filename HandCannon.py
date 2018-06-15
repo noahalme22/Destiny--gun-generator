@@ -16,7 +16,7 @@ class HandCannon(primary.primary):
 
                 hcList = []
                 
-                if hcList == []:
+                if hcList == "":
                         for i in range (0,3):
                                 hcRan = random.choice(['Army of One','Crowd Control','Field Scout','Final round','Firefly','Hand loaded','Hot Swap','Icarus','Lightweight','Outlaw','Quickdraw','Perfect Balence',
         'Luck in the Chamber','Rangefinder','Mulligan','Return to Sender','Send it','Single Point Sling','Smallbore','Spray and play','Snapshot','Third Eye'])
