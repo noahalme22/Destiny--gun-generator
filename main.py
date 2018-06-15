@@ -1,24 +1,27 @@
 
-<<<<<<< HEAD
-import PulseRifle as pr,HandCannon as hc, AutoRifle as ar, ScoutRifle as scr
+import PulseRifle as pr,HandCannon as hc, AutoRifle as ar, ScoutRifle as scr, SMG as smg, Sword as sw, Grenade as gr, Rocket as ro, Machine as ma
 
 newWeapon = pr.PulseRifle ()
 newWeapon1 = hc.HandCannon ()
 newWeapon2 = ar.AutoRifle ()
 newWeapon3 = scr.ScoutRifle ()
+newWeapon4 = smg.SMG ()
+newWeapon5 = sw.Sword ()
+newWeapon6 = gr.Grenade ()
+newWeapon7 = ro.Rocket()
+newWeapon8 = ma.Machine()
+
+
+
+
 print (newWeapon.gun)
 print (newWeapon1.gun)
 print (newWeapon2.gun)
 print (newWeapon3.gun)
-=======
-import Sniper as sr
-
-<<<<<<< HEAD
-newWeapon = sr.Sniper ()
-print (newWeapon.gun)
->>>>>>> ddfd13180411c7227c7d7c3eaab6364d8d4c6c3a
-=======
-newWeapon7 = sr.Sniper ()
+print (newWeapon4.gun)
+print (newWeapon5.gun)
+print (newWeapon6.gun)
 print (newWeapon7.gun)
->>>>>>> 71a00b217e8a1bce4d19f6a243d5df01a8d4cea3
+print (newWeapon8.gun)
+
 

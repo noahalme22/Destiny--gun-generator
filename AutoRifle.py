@@ -1,7 +1,7 @@
 import random,primary
 
 
-class AutoRifle(primary.primary):
+class AutoRifle(primary.Primary):
 
 
         def __init__(self,autoRifle = "",autoRifleList = "",autoRifleAttributes = ""):

@@ -3,20 +3,15 @@
 #Destiny Gun Generator
 
 import random,prototype
-class heavy(prototype.prototype):
-	'''primary weapon generator'''
+class Heavy(prototype.Prototype):
+	'''heavy weapon generator'''
 
-	def __init__(self,gunType1 = "",rocket = "", grenade = "", sword = "", machine = ""):
-	super().__init__()
+	def __init__(self,gunType = ""):
+                super().__init__()
+                self.gun = gunType
 
-        self.rocket = rocket
-	self.grenade = grenade
-	self.sword = sword
-	self.machine = machine
-
-
-        if gunType1 == "heavy":
-		typeRan1 = random.choice('','','','','')
+                if gunType == "heavy":
+                        self.gun = random.choice('sword','rocket launcher','grenade launcher','machine gun')
 			
 		
 					
