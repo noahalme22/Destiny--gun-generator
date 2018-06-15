@@ -1,26 +1,13 @@
 import random,prototype
-class secondary(prototype.prototype):
+class Secondary(prototype.Prototype):
 	'''secondary weapon generator'''
 
-	def __init__(self,gunType="", sidearm = "", fusion = "", sniper = "", shotgun = ""):
-
-			if gunType == "secondary":
-				typeRan = random.randint(1,4)
+	def __init__(self,gunType = ""):
+                super().__init__()
+                self.gun = gunType
+                
+                if gunType == "secondary":
+                        self.gunType = random.choice(["shotgun","sniper","fusion","sidearm"])
+				
 			
-				if typeRan == 1:
-					gunType = sidearm
-					
-				elif typeRan == 2:
-					gunType = fusion
-					
-				elif typeRan == 3:
-					gunType = sniper
-
-				elif typeRan == 4:
-					gunType = shotgun
 			
-			self.gun = gunType
-			self.sidearm = sidearm
-			self.fusion = fusion
-			self.sniper = sniper
-			self.shotgun = shotgun

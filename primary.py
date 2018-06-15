@@ -1,10 +1,11 @@
 import random,prototype
-class primary(prototype.prototype):
-  '''secondary weapon generator'''
+class Primary(prototype.Prototype):
+  '''primary weapon generator'''
 
   def __init__(self,gunType = ""):
+    super().__init__()
     self.gun = gunType
     
-    if gunType == "":
-      
+    if gunType == "": 
       self.gun = random.choice(["autoRifle","scoutRifle","handCannon","smg"])		
+
