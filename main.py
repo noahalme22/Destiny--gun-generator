@@ -3,7 +3,7 @@ import PulseRifle as pr, HandCannon as hc, AutoRifle as ar, ScoutRifle as scr, S
 
 
 
-newWeapon = pr.PulseRifle ("hi")
+newWeapon = pr.PulseRifle ()
 newWeapon1 = hc.HandCannon ()
 newWeapon2 = ar.AutoRifle ()
 newWeapon3 = scr.ScoutRifle ()
