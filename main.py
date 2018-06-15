@@ -1,6 +1,6 @@
 
 import Sniper as sr
 
-newWeapon = sr.Sniper ()
-print (newWeapon.gun)
+newWeapon7 = sr.Sniper ()
+print (newWeapon7.gun)
 
