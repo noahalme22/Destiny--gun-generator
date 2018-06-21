@@ -3,7 +3,7 @@ import random,primary
 
 class HandCannon(primary.Primary):
         def __init__(self):
-                super().__init__()
+                super().__init__("HandCannon")
                 
                 
            
@@ -20,4 +20,7 @@ class HandCannon(primary.Primary):
                                                      'Single Point Sling','Smallbore','Spray and play','Snapshot','Third Eye']))
 
         def __str__(self):
-                return super().__str__()+"\nhandCannon: "+str(self.handCannon)+"\nhcAttributes : "+str(self.hcAttributes)+"\nhcList: "+str(self.hcList)+"\n"
+                return super().__str__()+"\nhandCannon: "+str(self.handCannon)+"\nAttributes : "+str(self.hcAttributes)+"\nperks: "+str(self.hcList)+"\n"
+
+
+        

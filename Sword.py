@@ -1,22 +1,12 @@
 import random,heavy
 
 class Sword(heavy.Heavy):
-        def __init__(self,swordList = "", sword = ""):
-                super().__init__()
-
-
-                self.sword = sword
-                self.swordList = swordList
-
-
-
-                swordList = []
-                if swordList == "":
-                        swordList = random.choice(['precision frame','LightWeight','Aggressive Frame','Adept Frame','High-Impact Frame','Rapid-Fire Frame'])
-
+        def __init__(self):
+                super().__init__("Sword")
                 
-                if sword == "":
-                        sword = random.choice(["Raze-Lighter","Dark-Drinker","The Young Wolfs Howl","Worldline Zero"])
+                self.swordAttributes = random.choice(['precision frame','LightWeight','Aggressive Frame','Adept Frame','High-Impact Frame','Rapid-Fire Frame'])
+                
+                self.sword = random.choice(["Raze-Lighter","Dark-Drinker","The Young Wolfs Howl","Worldline Zero"])
 
         def __str__(self):
-                return super().__str__()+"\nsword: "+str(self.sword)+"\nattributes: "+str(self.swordAttributes)+"\nlist: "+str(self.swordList)+"\n"
+                return super().__str__()+"\nsword: "+str(self.sword)+"\nattributes: "+str(self.swordAttributes)+"\n"

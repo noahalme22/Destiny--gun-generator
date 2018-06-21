@@ -9,3 +9,5 @@ class Primary(prototype.Prototype):
     if gunType == "": 
       self.gun = random.choice(["autoRifle","scoutRifle","handCannon","smg", "pulseRifle"])		
 
+  def __str__(self):
+                return "\nGunType: "+str(self.gun)

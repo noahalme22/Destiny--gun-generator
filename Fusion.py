@@ -2,7 +2,7 @@ import random, secondary
 
 class Fusion(secondary.Secondary):
         def __init__(self):
-                super().__init__()
+                super().__init__("fusion")
 
                 self.fusionRifleList = []
                 
@@ -16,4 +16,4 @@ class Fusion(secondary.Secondary):
 
 
         def __str__(self):
-                return super().__str__()+"\nfusion: "+str(self.fusion)+"\nattributes: "+str(self.fusionRifleAttributes)+"\nlist: "+str(self.fusionRifleList)+"\n"
+                return super().__str__()+"\nfusion rifle: "+str(self.fusion)+"\nattributes: "+str(self.fusionRifleAttributes)+"\nperks: "+str(self.fusionRifleList)+"\n"

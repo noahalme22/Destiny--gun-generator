@@ -3,12 +3,14 @@ import random,primary
 
 class AutoRifle(primary.Primary):
         def __init__(self):
-                super().__init__()
-                self.AutoRifleList = []
+                super().__init__("Autorifle")
+
+                self.autoRifleList = []
                 
 
                 for i in range (0,3):
-                        self.AutoRifleList.append(random.choice(['Armor Piercing Rounds','Army of One','Battle Runner','Braced Frame','Cascade','Crowd Control','Extended Mag','Fitted Stock','Field Scout','Focused Fire','Hand Loaded','Hammer Forged','Hand-Laid Stock','Hidden Hand','Hip Fire','Hot Swap','Injection Mold','Icarus','Lightweight','Outlaw','Quickdraw','Perfect Balence','Persistance','Rangefinder','Replenish','Single Point Sling','Smallbore','Spray and play','Snapshot','Third Eye']))
+                        self.autoRifleList.append(random.choice(['Armor Piercing Rounds','Army of One','Battle Runner','Braced Frame','Cascade','Crowd Control','Extended Mag','Fitted Stock','Field Scout','Focused Fire','Hand Loaded','Hammer Forged','Hand-Laid Stock','Hidden Hand','Hip Fire','Hot Swap','Injection Mold',\
+                                                                 'Icarus','Lightweight','Outlaw','Quickdraw','Perfect Balence','Persistance','Rangefinder','Replenish','Single Point Sling','Smallbore','Spray and play','Snapshot','Third Eye']))
                                 
                         
 
@@ -21,4 +23,4 @@ class AutoRifle(primary.Primary):
 
 
         def __str__(self):
-                return super().__str__()+"\nautoRifle: "+str(self.autoRifle)+"\nautoRifleAttributes : "+str(self.autoRifleAttributes)+"\nautoRifleList: "+str(self.autoRifleList)+"\n"
+                return super().__str__()+"\nautoRifle: "+str(self.autoRifle)+"\nAttributes : "+str(self.autoRifleAttributes)+"\nperks: "+str(self.autoRifleList)+"\n"

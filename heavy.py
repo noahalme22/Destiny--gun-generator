@@ -12,7 +12,9 @@ class Heavy(prototype.Prototype):
 
                 if gunType == "":
                         self.gun = random.choice(['sword','rocket launcher','grenade launcher','machine gun'])
-			
+
+	def __str__(self):
+                return "\nGunType: "+str(self.gun)
 		
 					
 
