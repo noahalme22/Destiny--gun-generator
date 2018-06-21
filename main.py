@@ -12,15 +12,27 @@ weaponList.append(hc.HandCannon ())
 print("Handcannon info:")
 print(weaponList[1].handCannon, weaponList[1].hcAttributes,weaponList[1].hcList)
 weaponList.append(ar.AutoRifle ())
+print("auto rifle info:")
+print(weaponList[2].autoRifle, weaponList[2].autoRifleAttributes,weaponList[2].AutoRifleList)
+
 weaponList.append(scr.ScoutRifle ())
+
 weaponList.append(smg.SMG ())
+
 weaponList.append(sw.Sword ())
+
 weaponList.append(gr.Grenade ())
+
 weaponList.append(ro.Rocket())
+
 weaponList.append(ma.Machine())
+
 weaponList.append(sr.Sniper ())
+
 weaponList.append(sa.Sidearm ())
+
 weaponList.append(sg.Shotgun ())
+
 weaponList.append(fr.Fusion ())
 
 
