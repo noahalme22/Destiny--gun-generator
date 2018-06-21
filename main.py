@@ -5,12 +5,8 @@ import PulseRifle as pr, HandCannonBackUp as hc, AutoRifle as ar, ScoutRifle as 
 weaponList = []
 
 
-weaponList.append(pr.PulseRifle ())
-print("pulse rifle info:")
-print(weaponList[0].pulseRifle, weaponList[0].pulseRifleAttributes,weaponList[0].pulseRifleList)
-weaponList.append(hc.HandCannon ())
-print("Handcannon info:")
-print(weaponList[1].handCannon, weaponList[1].hcAttributes,weaponList[1].hcList)
+
+
 weaponList.append(ar.AutoRifle ())
 weaponList.append(scr.ScoutRifle ())
 weaponList.append(smg.SMG ())
@@ -22,7 +18,8 @@ weaponList.append(sr.Sniper ())
 weaponList.append(sa.Sidearm ())
 weaponList.append(sg.Shotgun ())
 weaponList.append(fr.Fusion ())
-
+print("Fusion rifle info:")
+print(weaponList[0].fusion, weaponList[0].fusionRifleAttributes,weaponList[0].fusionRifleList)
 
 #print ("This is your List: ",weaponList)
 
