@@ -7,5 +7,5 @@ class Primary(prototype.Prototype):
     self.gun = gunType
     
     if gunType == "": 
-      self.gun = random.choice(["autoRifle","scoutRifle","handCannon","smg"])		
+      self.gun = random.choice(["autoRifle","scoutRifle","handCannon","smg", "pulseRifle"])		
 

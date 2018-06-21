@@ -10,7 +10,7 @@ class HandCannon(primary.Primary):
                 
                 if handCannon == "":
                         handCannon = random.choice(["Crimson","Palindrome","Eyesluna","Last Word","Better Devils","Old Fashioned"])
-
+                        print(handCannon)
                 if hcAttributes == "":
                         hcAttributes = random.choice(['precision frame','Lightweight Frame','Aggresive Frame','Adaptive Frame','High-Impact Frame','Rapid-Fire Frame'])
 

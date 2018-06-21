@@ -1,36 +1,29 @@
-import PulseRifle as pr, HandCannon as hc, AutoRifle as ar, ScoutRifle as scr, SMG as smg, Sword as sw, Grenade as gr, Rocket as ro, Machine as ma, Sniper as sr, SideArm as sa,ShotGun as sg,Fusion as fr
+import PulseRifle as pr, HandCannonBackUp as hc, AutoRifle as ar, ScoutRifle as scr, SMG as smg, Sword as sw, Grenade as gr, Rocket as ro, Machine as ma, Sniper as sr, SideArm as sa,ShotGun as sg,Fusion as fr
 
 
 
-
-newWeapon = pr.PulseRifle ()
-newWeapon1 = hc.HandCannon ()
-newWeapon2 = ar.AutoRifle ()
-newWeapon3 = scr.ScoutRifle ()
-newWeapon4 = smg.SMG ()
-newWeapon5 = sw.Sword ()
-newWeapon6 = gr.Grenade ()
-newWeapon7 = ro.Rocket()
-newWeapon8 = ma.Machine()
-newWeapon9 = sr.Sniper ()
-newWeapon10 = sa.Sidearm ()
-newWeapon11 = sg.Shotgun ()
-newWeapon12 = fr.Fusion ()
+weaponList = []
 
 
+weaponList.append(pr.PulseRifle ())
+print("pulse rifle info:")
+print(weaponList[0].pulseRifle, weaponList[0].pulseRifleAttributes,weaponList[0].pulseRifleList)
+weaponList.append(hc.HandCannon ())
+print("Handcannon info:")
+print(weaponList[1].handCannon, weaponList[1].hcAttributes,weaponList[1].hcList)
+weaponList.append(ar.AutoRifle ())
+weaponList.append(scr.ScoutRifle ())
+weaponList.append(smg.SMG ())
+weaponList.append(sw.Sword ())
+weaponList.append(gr.Grenade ())
+weaponList.append(ro.Rocket())
+weaponList.append(ma.Machine())
+weaponList.append(sr.Sniper ())
+weaponList.append(sa.Sidearm ())
+weaponList.append(sg.Shotgun ())
+weaponList.append(fr.Fusion ())
 
-print (newWeapon.gun)
-print (newWeapon1.gun)
-print (newWeapon2.gun)
-print (newWeapon3.gun)
-print (newWeapon4.gun)
-print (newWeapon5.gun)
-print (newWeapon6.gun)
-print (newWeapon7.gun)
-print (newWeapon8.gun)
-print (newWeapon9.gun)
-print (newWeapon10.gun)
-print (newWeapon11.gun)
-print (newWeapon12.gun)
+
+#print ("This is your List: ",weaponList)
 
 
